@@ -10,3 +10,5 @@ yapf
 python-gitlab
 twine
 gunicorn
+flask
+flask-cors
