@@ -1,1 +1,1 @@
-web: pip install . -U && mlproject-run
+web: gunicorn app:app
