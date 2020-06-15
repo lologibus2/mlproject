@@ -14,6 +14,11 @@ CORS(app)
 def index():
     return 'OK'
 
+@app.route('/print_name')
+def print_name():
+    return "My name is ada"
+
+
 
 if __name__ == '__main__':
     app.run(host='127.0.0.1', port=8080, debug=True)
